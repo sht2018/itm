@@ -1,6 +1,9 @@
 # 2018.11.13 作业
 
-1.安装 numpy jupyternotebook opencv
+1.安装 numpy pandas matplotlib jupyternotebook opencv
+  pip install numpy
+  .....
+
 
 2.完成 3个3D打印作品的设计并上传github 自己的目录
 
