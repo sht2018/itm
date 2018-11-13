@@ -1,0 +1,45 @@
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+
+mc = minecraft.Minecraft.create()
+pos = mc.player.getTilePos()
+mc.player.setTilePos(-30,-6,-40)
+
+
+
+
+e = -10
+while (e <= 10):
+    mc.setBlock(pos.x, pos.y+e, pos.z, block.AIR.id)
+
+    c = -10
+    while (c <= 10):
+        mc.setBlock(pos.x+c, pos.y+e, pos.z, block.AIR.id)
+        
+        d = -10
+        while (d <= 10):
+            mc.setBlock(pos.x+c, pos.y+e, pos.z+d, block.AIR.id)
+            d += 1
+
+        c += 1
+        
+    e += 1
+
+
+
+i = - 10
+while (i <= 10):
+    mc.setBlock(pos.x+i, pos.y + 10, pos.z, block.STONE.id)
+    mc.setBlock(pos.x+i, pos.y + 1, pos.z, 50)
+    
+
+
+    a = -10
+    while (a <= 10):
+        mc.setBlock(pos.x+i, pos.y + 10, pos.z+a, block.STONE.id)
+        mc.setBlock(pos.x+i, pos.y + 1, pos.z+a, 50)
+        a += 1
+    i += 1
+
+
+
