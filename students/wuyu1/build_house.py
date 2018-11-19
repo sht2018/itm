@@ -17,6 +17,8 @@ while True:
                 mc.setBlock(hit.pos.x + 9, hit.pos.y + x, hit.pos.z + a, 1)
             for b in range(10):
                 mc.setBlock(hit.pos.x + b, hit.pos.y + x, hit.pos.z + 9 , 1)
+        print("House built in (%d, %d, %d)." % (hit.pos.x, hit.pos.y, hit.pos.z))
+
 
 
         
