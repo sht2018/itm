@@ -2,7 +2,7 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 import secrets
 mc = minecraft.Minecraft.create()
-blocks = [i for i in range(1, 10)]
+blocks = [1]
 
 def shabby_house(x, y, z):
     for i in range(-5, 6):
