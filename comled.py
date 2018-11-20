@@ -8,12 +8,12 @@ print (ports)
 
 for p in ports:
     print (p[1])
-    if "SERIAL" in p[1]:
+    if "SERIAL" in p[1] or "USB 串行设备" in p[1]:
 	    ser=serial.Serial(port=p[0])
     else :
 	    print ("No Arduino Device was found connected to the computer")
 
-#ser=serial.Serial(port='COM4')
+#ser=serial.Serial(port='COM3')
 #ser=serial.Serial(port='/dev/ttymodem542')
 #wait 2 seconds for arduino board restart
 time.sleep(2)
