@@ -61,19 +61,19 @@
 
 ### 使用说明
 
-![1](screenshots\1.png)
+![1](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/1.png)
 
 在Minecraft中显示一盆植物的湿度状况，分为0~10个级别，通过水方块来展示
 
-![2](screenshots\2.png)
+![2](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/2.png)
 
 有一个开关来控制自动浇水模式是否开启
 
-![3](screenshots\3.png)
+![3](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/3.png)
 
 开启时灯亮
 
-![4](screenshots\4.png)
+![4](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/4.png)
 
 当缺水时，红灯闪烁警示
 
@@ -99,17 +99,13 @@
 
 ### 客户端
 
-![5](E:\智造学术X\project\screenshots\5.png)
+![5](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/5.png)
 
 可添加多个花盆多种植物
 
-![6](E:\智造学术X\project\screenshots\6.png)
+![6](https://github.com/sht2018/itm/blob/master/teams/team1/huangchy/screenshots/6.png)
 
 世界时间随真实时间变化
-
-### 实物图
-
-暂缺
 
 ## 未来展望
 
